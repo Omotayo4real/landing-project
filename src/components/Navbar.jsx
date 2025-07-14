@@ -1,4 +1,4 @@
-import redShoe from '../assets/redshoe.jpg';
+import tayo from '../assets/tayo.jpg';
 import { navItems } from '../constants';
 import {Menu, X} from 'lucide-react';
 import { useState } from 'react';
@@ -14,18 +14,18 @@ const Navbar = () => {
        <div className="container mx-auto p-4 relative text-sm">
           <div className="flex justify-between items-center">
              <div className="flex items-center flex-shrink-0">
-                <img src={redShoe} alt='Logo' className='w-10 h-10 mr-2 rounded-full '/>
+                <img src={tayo} alt='Logo' className='w-10 h-10 mr-2 rounded-full '/>
                 <span className='text-xl tracking-tight'>Omotayo</span>
              </div>
              <ul className='hidden lg:flex ml-14 space-x-12'>
                 {navItems.map((item, index) => (
                   <li key={index}>
-                     <a href={item.href}>{item.label}</a>
+                     <a href={item.href} className='hover:text-orange-500 '>{item.label}</a>
                   </li>
                 ))}
              </ul>
              <div className='hidden lg:flex justify-center space-x-12 items-center'>
-                <a href='#' className='py-2 px-3 border rounded-md'>Sign In</a>
+                <a href='#' className='py-2 px-3 border rounded-md hover:bg-orange-900 '>Sign In</a>
                 <a href='#' className='bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md'>Create an account</a>
              </div>
              <div className='lg:hidden md:flex flex-col justify-start'>
@@ -42,7 +42,7 @@ const Navbar = () => {
                   ))}
                </ul>
                <div className="flex space-x-12">
-                  <a href='#' className='px-3 py-2 border rounded-md'>Sign In</a>
+                  <a href='#' className='px-3 py-2 border rounded-md hover:bg-orange-900 '>Sign In</a>
                   <a href='#' className='px-3 py-2 border rounded-md bg-gradient-to-r from-orange-500 to-orange-800'>Create an account</a>
                </div>
             </div>

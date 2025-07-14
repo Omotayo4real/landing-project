@@ -8,10 +8,10 @@ import { GlobeLock } from "lucide-react";
 
 
 export const navItems = [
-    {label:'Features', href:'#'},
-    {label:'Workflow', href:'#'},
-    {label:'Pricing', href:'#'},
-    {label:'Testimonials', href:'#'}
+    {label:'Features', href:'/#features'},
+    {label:'Workflow', href:'/#workflow'},
+    {label:'Pricing', href:'/#pricing'},
+    {label:'Testimonials', href:'/#testimonials'}
 ];
 
 export const features = [
@@ -51,19 +51,19 @@ export const features = [
 export const checklistItems = [
     {
         title: 'Code merge made easy',
-        description: 'Traack the performance of your VR apps and gain insight into user behavior.'
+        description: 'Track the performance of your VR apps and gain insight into user behavior.'
     },
     {
         title: 'Review code without worry',
-        description: 'Traack the performance of your VR apps and gain insight into user behavior.'
+        description: 'Track the performance of your VR apps and gain insight into user behavior.'
     },
     {
         title: 'AI assistance to reduce time',
-        description: 'Traack the performance of your VR apps and gain insight into user behavior.'
+        description: 'Track the performance of your VR apps and gain insight into user behavior.'
     },
     {
         title: 'Share work in minutes',
-        description: 'Traack the performance of your VR apps and gain insight into user behavior.'
+        description: 'Track the performance of your VR apps and gain insight into user behavior.'
     },
 ]
 
@@ -100,12 +100,12 @@ export const pricingOptions = [
     }
 ]
 
-import user1 from '../assets/bigShoe2.jpg';
-import user2 from '../assets/blackShoe.jpg';
-import user3 from '../assets/blueshoe.jpg';
-import user4 from '../assets/converse.jpg';
-import user5 from '../assets/niceshoe.jpg';
-import user6 from '../assets/shoe9.jpg';
+import user1 from "../assets/user1.jpg";
+import user2 from '../assets/user2.jpg';
+import user3 from '../assets/user3.jpg';
+import user4 from '../assets/user4.jpg';
+import user5 from '../assets/user5.jpg';
+import user6 from '../assets/user6.jpg';
 
 export const testimonials = [
     {
